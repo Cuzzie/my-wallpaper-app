@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <ul class="thumbnailsList">
+      <li *ngFor="let image of images">
+        <img [src]="image.previewURL" class="tn" width="200" height="160" />
+      </li>
+    </ul>
+  </div>
+</div>
